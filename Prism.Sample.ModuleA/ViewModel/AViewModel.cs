@@ -6,7 +6,7 @@ namespace Prism.Sample.ModuleA.ViewModel
     {
         public AViewModel()
         {
-            ModuleAContent = "This is Ribbon Region module(ModuleA loaded here), Basically we can use it to display menus";
+            ModuleAContent = "région A Ribbon Region : contiendra le nom du document/du dossier";
         }
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged(string propertyName)

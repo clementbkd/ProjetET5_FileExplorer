@@ -6,7 +6,7 @@ namespace Prism.Sample.ModuleB.ViewModel
     {
         public BViewModel()
         {
-            ModuleBContent = "This is Left Region module(ModuleB loaded here), Basically we can use it to load any List items";
+            ModuleBContent = "Région B LeftRegion à gauche : contiendra l'explorateur de dossiers";
         }
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged(string propertyName)

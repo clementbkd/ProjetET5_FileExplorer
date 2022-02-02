@@ -6,7 +6,7 @@ namespace Prism.Sample.ModuleD.ViewModel
     {
         public DViewModel()
         {
-            ModuleDContent = "This is Bottom Region module(ModuleD loaded here), Basically we can use it to display logs/info";
+            ModuleDContent = "région D BottomRegion dans l'espace inférieur : contiendra un bouton affiche";
         }
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged(string propertyName)

@@ -6,7 +6,7 @@ namespace Prism.Sample.ModuleC.ViewModel
     {
         public CViewModel()
         {
-            ModuleCContent = "This is Main Region module(ModuleC loaded here), Basically we can use it to put usercontrol/form/document";
+            ModuleCContent = "Région principale C MainRegion : contiendra l'explorateur de fichier & visionnage PDF";
         }
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged(string propertyName)
