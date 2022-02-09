@@ -1,8 +1,10 @@
 ﻿//Intégration de Unity
+
 using Microsoft.Practices.Prism.Modularity;
 using Microsoft.Practices.Prism.UnityExtensions;
 using Prism.Sample.ModuleA;
-using Prism.Sample.ModuleB;
+//using Prism.Sample.ModuleB;
+using FolderBrowser;
 using Prism.Sample.ModuleC;
 using Prism.Sample.ModuleD;
 using System.Windows;

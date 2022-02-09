@@ -71,9 +71,15 @@
   <ItemGroup>
     <Compile Include="BModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\BrowserViewModel.cs" />
     <Compile Include="ViewModel\BViewModel.cs" />
+    <Compile Include="ViewModel\FolderViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
     <Compile Include="View\BView.xaml.cs">
       <DependentUpon>BView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FolderBrowserDialog.xaml.cs">
+      <DependentUpon>FolderBrowserDialog.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -81,9 +87,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\FolderBrowserDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Images\Desktop.png" />
+    <Content Include="Images\FolderClosed.png" />
+    <Content Include="Images\FolderOpen.png" />
+    <Content Include="Images\MyDocuments.png" />
+    <Content Include="Images\MyPictures.png" />
+    <Content Include="Images\MyVideos.png" />
+    <Content Include="Images\ProgramFiles.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prism.Sample.ModuleB
+namespace FolderBrowser
 {
     public class BModule : IModule
     {
@@ -19,7 +19,7 @@ namespace Prism.Sample.ModuleB
         }
         public void Initialize()
         {
-            _regionViewRegistry.RegisterViewWithRegion("LeftRegion", typeof(BView));
+            _regionViewRegistry.RegisterViewWithRegion("LeftRegion", typeof(FolderBrowserDialog));
         }
     }
 }

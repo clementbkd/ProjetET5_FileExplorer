@@ -54,3 +54,5 @@ C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.Modu
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Debug\Prism.Sample.ModuleB.csproj.CopyComplete
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Debug\Prism.Sample.ModuleB.dll
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Debug\Prism.Sample.ModuleB.pdb
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Debug\View\FolderBrowserDialog.baml
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Debug\View\FolderBrowserDialog.g.cs
