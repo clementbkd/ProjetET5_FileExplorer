@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:prism="http://www.codeplex.com/prism" WindowState="Maximized"
         mc:Ignorable="d" Title="ShellApp" Height="900" Width="1200">
+
+    
     <!--Ceci permet de définir une fenêtre de taille 1200*900 qui contiendra tout les différents modules à travers les régions suivante :-->
     <Grid x:Name="LayoutRoot">
         <DockPanel LastChildFill="True" HorizontalAlignment="Stretch"  Name="dockPanel" VerticalAlignment="Stretch">
@@ -22,11 +24,11 @@
             </Border>
             <!--Région LeftRegion à gauche : contiendra l'explorateur de dossiers -->
             <Border BorderBrush="Silver" BorderThickness="1"  DockPanel.Dock="Left" >
-                <ScrollViewer>
-                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" DockPanel.Dock="Left" Width="200">
+                <ListView>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" DockPanel.Dock="Left" Width="300" Focusable="False">
                         <ContentControl prism:RegionManager.RegionName="LeftRegion"></ContentControl>
                     </StackPanel>
-                </ScrollViewer>
+                </ListView>
             </Border>
             <!--Région principale MainRegion : contiendra l'explorateur de fichier & visionnage PDF etc -->
             <Border BorderBrush="Silver" BorderThickness="1" >

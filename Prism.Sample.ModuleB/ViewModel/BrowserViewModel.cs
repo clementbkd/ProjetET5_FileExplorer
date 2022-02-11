@@ -43,7 +43,7 @@ namespace FolderBrowser
         public BrowserViewModel()
         {
             Folders = new ObservableCollection<FolderViewModel>();
-            Environment.GetLogicalDrives().ToList().ForEach(it => Folders.Add(new FolderViewModel { Root = this, FolderPath = it.TrimEnd('\\'), FolderName = it.TrimEnd('\\'), FolderIcon = "Images\\HardDisk.ico" }));
+            Environment.GetLogicalDrives().ToList().ForEach(it => Folders.Add(new FolderViewModel { Root = this, FolderPath = it.TrimEnd('\\'), FolderName = it.TrimEnd('\\'), FolderIcon = "/Images\\HardDisk.ico" }));
         }
     }
 }

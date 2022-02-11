@@ -7,11 +7,11 @@
         x:Name="view"
         xmlns:system="clr-namespace:System;assembly=mscorlib"
         DataContext="{Binding ElementName=view, Path=ViewModel}"
-        Width="200"
-        Height="650"
+        Width="300"
+        Height="680"
  
         Background="#FFD3CCCC">
-   
+
     <DockPanel  Width="Auto"
                 Height="Auto">
 
@@ -36,55 +36,55 @@
 
             <!-- Quick navigation panel on left-->
             <Border BorderThickness="2"
-                    BorderBrush="Gray">
+                    BorderBrush="White">
                 <StackPanel Orientation="Vertical"
                             HorizontalAlignment="Left"
                             DockPanel.Dock="Left"
-                            Background="#FF606060"> 
+                            Background="White">
                     <Button Command="{Binding FolderSelectedCommand}"
                             CommandParameter="{x:Static system:Environment+SpecialFolder.Desktop }">
                         <StackPanel>
-                            <Image Source="Images/Desktop.png"
+                            <Image Source="/Images/Desktop.ico"
                                    Height="35"
                                    Width="55" />
-                            <TextBlock HorizontalAlignment="Center">Desktop</TextBlock>
+                            <TextBlock HorizontalAlignment="Center">Bureau</TextBlock>
                         </StackPanel>
                     </Button>
 
                     <Button Command="{Binding FolderSelectedCommand}"
                             CommandParameter="{x:Static system:Environment+SpecialFolder.ProgramFiles }">
                         <StackPanel>
-                            <Image Source="Images/ProgramFiles.ico"
+                            <Image Source="/Images/ProgramFiles.ico"
                                    Height="35"
                                    Width="55" />
-                            <TextBlock HorizontalAlignment="Center">Program Files</TextBlock>
+                            <TextBlock HorizontalAlignment="Center">Program</TextBlock>
                         </StackPanel>
                     </Button>
 
                     <Button Command="{Binding FolderSelectedCommand}"
                            CommandParameter="{x:Static system:Environment+SpecialFolder.MyDocuments }">
-                     
+
                         <StackPanel>
-                            <Image Source="Images/MyDocuments.png"
+                            <Image Source="/Images/MyDocuments.ico"
                                    Height="35"
                                    Width="55" />
-                            <TextBlock HorizontalAlignment="Center">My Documents</TextBlock>
+                            <TextBlock HorizontalAlignment="Center">Documents</TextBlock>
                         </StackPanel>
                     </Button>
 
                     <Button Command="{Binding FolderSelectedCommand}"
                             CommandParameter="{x:Static system:Environment+SpecialFolder.MyPictures }">
                         <StackPanel>
-                            <Image Source="Images/MyPictures.ico"
+                            <Image Source="/Images/MyPictures.ico"
                                    Height="35"
                                    Width="55" />
-                            <TextBlock HorizontalAlignment="Center">My Pictures</TextBlock>
+                            <TextBlock HorizontalAlignment="Center"><Run Text="Photos"/></TextBlock>
                         </StackPanel>
                     </Button>
 
                 </StackPanel>
             </Border>
-            
+
             <!-- The windows explorer style treeview of folders -->
             <TreeView ItemsSource="{Binding Folders}"
                       SelectedValuePath="">

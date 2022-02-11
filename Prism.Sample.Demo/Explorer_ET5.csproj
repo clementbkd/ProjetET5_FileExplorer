@@ -138,5 +138,21 @@
       <Name>Prism.Sample.ModuleD</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\HardDisk.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\FolderClosed.ico" />
+    <Resource Include="Images\FolderOpen.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Desktop.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\MyDocuments.ico" />
+    <Resource Include="Images\MyPictures.ico" />
+    <Resource Include="Images\MyVideos.ico" />
+    <Resource Include="Images\ProgramFiles.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
