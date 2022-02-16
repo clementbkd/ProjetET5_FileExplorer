@@ -154,5 +154,13 @@
     <Resource Include="Images\MyVideos.ico" />
     <Resource Include="Images\ProgramFiles.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Documents.ico" />
+    <Resource Include="Images\Photos.ico" />
+    <Resource Include="Images\Videos.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Adobe.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

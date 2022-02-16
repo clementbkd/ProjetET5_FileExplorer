@@ -1,8 +1,7 @@
 ﻿using Microsoft.Practices.Prism.Modularity;
 using Microsoft.Practices.Prism.Regions;
-using Prism.Sample.ModuleC.View;
 
-namespace Prism.Sample.ModuleC
+namespace FileBrowser
 {
     public class CModule : IModule
     {
@@ -14,7 +13,7 @@ namespace Prism.Sample.ModuleC
         }
         public void Initialize()
         {
-            _regionViewRegistry.RegisterViewWithRegion("MainRegion", typeof(CView));
+            _regionViewRegistry.RegisterViewWithRegion("MainRegion", typeof(FolderBrowserDialog));
         }
     }
 }

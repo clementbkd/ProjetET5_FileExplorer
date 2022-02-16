@@ -1,6 +1,5 @@
 ﻿using Microsoft.Practices.Prism.Modularity;
 using Microsoft.Practices.Prism.Regions;
-using Prism.Sample.ModuleB.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;

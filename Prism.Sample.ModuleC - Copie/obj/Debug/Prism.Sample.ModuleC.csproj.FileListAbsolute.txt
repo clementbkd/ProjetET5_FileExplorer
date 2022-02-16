@@ -1,0 +1,56 @@
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Prism.Sample.ModuleC.dll
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Prism.Sample.ModuleC.pdb
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC.csprojAssemblyReference.cache
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\obj\Debug\View\CView.g.cs
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC_MarkupCompile.cache
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC_MarkupCompile.lref
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\obj\Debug\View\CView.baml
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC.g.resources
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC.csproj.CoreCompileInputs.cache
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC.csproj.CopyComplete
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC.dll
+C:\Users\cbenk\Desktop\Prism_CSharp\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC.pdb
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Prism.Sample.ModuleC.dll
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Prism.Sample.ModuleC.pdb
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC.csprojAssemblyReference.cache
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\obj\Debug\View\CView.g.cs
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC_MarkupCompile.cache
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC_MarkupCompile.lref
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\obj\Debug\View\CView.baml
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC.g.resources
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC.csproj.CoreCompileInputs.cache
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC.csproj.CopyComplete
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC.dll
+C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleC\obj\Debug\Prism.Sample.ModuleC.pdb

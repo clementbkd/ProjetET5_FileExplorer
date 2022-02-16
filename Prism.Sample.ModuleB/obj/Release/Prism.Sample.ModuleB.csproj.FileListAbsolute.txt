@@ -18,12 +18,8 @@ C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.Modu
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\bin\Release\Microsoft.Practices.Unity.Interception.Configuration.xml
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Release\Prism.Sample.ModuleB.csprojAssemblyReference.cache
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Release\View\FolderBrowserDialog.baml
-C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Release\View\BView.g.cs
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Release\View\FolderBrowserDialog.g.cs
-C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Release\GeneratedInternalTypeHelper.g.cs
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Release\Prism.Sample.ModuleB_MarkupCompile.cache
-C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Release\Prism.Sample.ModuleB_MarkupCompile.lref
-C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Release\View\BView.baml
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Release\Prism.Sample.ModuleB.g.resources
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Release\Prism.Sample.ModuleB.Properties.Resources.resources
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.ModuleB\obj\Release\Prism.Sample.ModuleB.csproj.GenerateResource.cache
