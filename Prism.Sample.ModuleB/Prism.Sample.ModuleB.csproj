@@ -83,17 +83,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="View\BView.xaml.cs">
+      <DependentUpon>BView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\FolderBrowserDialog.xaml.cs">
       <DependentUpon>FolderBrowserDialog.xaml</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="View\FolderBrowserDialog.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -103,6 +98,17 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Page Include="View\BView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\FolderBrowserDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

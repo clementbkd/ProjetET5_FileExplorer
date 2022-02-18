@@ -87,9 +87,9 @@ namespace FolderBrowser
                     if (!FolderName.Contains(':'))//Folder icon change not applicable for drive(s)
                     {
                         if (_isExpanded)
-                            FolderIcon = "/Images\\FolderOpen.ico";
+                            FolderIcon = "/Images\\folderO.ico";
                         else
-                            FolderIcon = "/Images\\FolderClosed.ico";
+                            FolderIcon = "/Images\\folderC.ico";
                     }
 
                     LoadFolders();
@@ -119,10 +119,10 @@ namespace FolderBrowser
                 Folders.Clear();
 
                 foreach (string dir in dirs)
-                    Folders.Add(new FolderViewModel { Root = this.Root, FolderName = Path.GetFileName(dir), FolderPath = Path.GetFullPath(dir), FolderIcon = "/Images\\FolderClosed.ico" });
+                    Folders.Add(new FolderViewModel { Root = this.Root, FolderName = Path.GetFileName(dir), FolderPath = Path.GetFullPath(dir), FolderIcon = "/Images\\folderC.ico" });
 
                 if (FolderName.Contains(":"))
-                    FolderIcon = "/Images\\HardDisk.ico";
+                    FolderIcon = "/Images\\folderO.ico";
 
                 Root.SelectedFolder = FolderPath;
             }

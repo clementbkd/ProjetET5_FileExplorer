@@ -83,8 +83,10 @@ namespace FileBrowser
                     _isExpanded = value;
 
                     OnPropertyChanged("IsExpanded");
-
+                    if (this.FolderName.Contains(".pdf"))
+                        GlobalRegion.handle.Activate(GlobalRegion.handle.Views.ElementAt(1));
                     //LANCER PDF SI POSSIBLE
+
                     /*
                     if (!FolderName.Contains(':'))//Folder icon change not applicable for drive(s)
                     {

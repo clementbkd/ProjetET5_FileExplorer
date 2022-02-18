@@ -16,76 +16,15 @@
                 Height="Auto">
 
 
-        <!-- The selected folder path -->
+        <!-- The selected folder path 
         <StackPanel DockPanel.Dock="Top">
             <TextBox Text="{Binding SelectedFolder}"
                      MinHeight="25"
                      Margin="5"
                      VerticalContentAlignment="Center" />
-        </StackPanel>
-
+        </StackPanel> -->
+        
         <DockPanel>
-
-            <!-- Quick navigation panel on left-->
-            <Border BorderThickness="2"
-                    BorderBrush="White">
-                <StackPanel Orientation="Vertical"
-                            HorizontalAlignment="Left"
-                            DockPanel.Dock="Left"
-                            Background="White">
-                    <Button Margin="10" Command="{Binding FolderSelectedCommand}"
-                            CommandParameter="{x:Static system:Environment+SpecialFolder.Desktop }">
-                        <StackPanel>
-                            <Image Source="/Images/Desktop.ico"
-                                   Height="35"
-                                   Width="55" />
-                            <TextBlock HorizontalAlignment="Center">Bureau</TextBlock>
-                        </StackPanel>
-                    </Button>
-
-                    <Button Margin="10" Command="{Binding FolderSelectedCommand}"
-                            CommandParameter="{x:Static system:Environment+SpecialFolder.ProgramFiles }">
-                        <StackPanel>
-                            <Image Source="/Images/ProgramFiles.ico"
-                                   Height="35"
-                                   Width="55" />
-                            <TextBlock HorizontalAlignment="Center">Program</TextBlock>
-                        </StackPanel>
-                    </Button>
-
-                    <Button Margin="10" Command="{Binding FolderSelectedCommand}"
-                           CommandParameter="{x:Static system:Environment+SpecialFolder.MyDocuments }">
-
-                        <StackPanel>
-                            <Image Source="/Images/MyDocuments.ico"
-                                   Height="35"
-                                   Width="55" />
-                            <TextBlock HorizontalAlignment="Center">Documents</TextBlock>
-                        </StackPanel>
-                    </Button>
-
-                    <Button Margin="10" Command="{Binding FolderSelectedCommand}"
-                            CommandParameter="{x:Static system:Environment+SpecialFolder.MyPictures }">
-                        <StackPanel>
-                            <Image Source="/Images/MyPictures.ico"
-                                   Height="35"
-                                   Width="55" />
-                            <TextBlock HorizontalAlignment="Center"><Run Text="Photos"/></TextBlock>
-                        </StackPanel>
-                    </Button>
-
-                    
-                    <StackPanel >
-                        <Button Width="75"
-                        Margin="10" Click="Ok_Click">Ok</Button>
-                        <Button Width="75"
-                        Margin="10"
-                        IsCancel="True">Cancel</Button>
-                    </StackPanel>
-                    
-                </StackPanel>
-            </Border>
-
             <!-- The windows explorer style treeview of folders -->
             <TreeView ItemsSource="{Binding Folders}"
                       SelectedValuePath="">
@@ -97,6 +36,7 @@
                                 Value="{Binding IsSelected, Mode=TwoWay}" />
                         <Setter Property="FontWeight"
                                 Value="Normal" />
+                        
                         <Style.Triggers>
                             <Trigger Property="IsSelected"
                                      Value="True">
@@ -111,11 +51,14 @@
                     <HierarchicalDataTemplate ItemsSource="{Binding Folders}">
                         <StackPanel Orientation="Horizontal">
                             <Image Source="{Binding FolderIcon}"
-                                   Margin="2"
-                                   Height="13" />
+                                   Margin="5"
+                                   Height="40" />
                             <TextBlock Text="{Binding FolderName}"
-                                       Margin="2"
-                                       Height="13" />
+                                       Foreground="Black"
+                                       FontFamily="Bold"
+                                       FontSize="25"
+                                       Margin="5"
+                                       Height="30"/>
                         </StackPanel>
                     </HierarchicalDataTemplate>
                 </TreeView.ItemTemplate>

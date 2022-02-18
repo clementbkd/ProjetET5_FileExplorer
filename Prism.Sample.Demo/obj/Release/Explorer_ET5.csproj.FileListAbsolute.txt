@@ -1,4 +1,3 @@
-C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.Demo\bin\Release\View\FolderBrowserDialog.xaml.cs
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.Demo\bin\Release\Prism.Sample.Demo.exe.config
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.Demo\bin\Release\Prism.Sample.Demo.exe
 C:\Users\cbenk\Documents\Visual Studio 2017\Projects\ProjetET5\Prism.Sample.Demo\bin\Release\Prism.Sample.Demo.pdb

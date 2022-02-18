@@ -36,6 +36,7 @@ namespace Prism.Sample.Explorer
             moduleCatalog.AddModule(typeof(BModule));
             moduleCatalog.AddModule(typeof(CModule));
             moduleCatalog.AddModule(typeof(DModule));
+
         }
     }
 }
