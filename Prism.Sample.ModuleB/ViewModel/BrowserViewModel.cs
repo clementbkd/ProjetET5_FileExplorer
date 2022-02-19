@@ -45,7 +45,7 @@ namespace FolderBrowser
         {
             Folders = new ObservableCollection<FolderViewModel>();
             Environment.GetLogicalDrives().ToList().ForEach(it => Folders.Add(new FolderViewModel { Root = this, FolderPath = it.TrimEnd('\\'), FolderName = it.TrimEnd('\\'), FolderIcon = "/Images\\folderO.ico" }));
-            Folders.RemoveAt(0); //On garde le disque G (simule sur un serveur avec un dossier à surveiller)
+            //Folders.RemoveAt(0); //On garde le disque G (simule sur un serveur avec un dossier à surveiller)
         }
     }
 }
