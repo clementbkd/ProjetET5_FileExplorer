@@ -65,7 +65,7 @@ namespace FileBrowser
 
                     OnPropertyChanged("IsSelected");
 
-                    IsExpanded = true; //Default windows behaviour of expanding the selected folder
+                    //IsExpanded = true; //Default windows behaviour of expanding the selected folder
                 }
             }
         }
